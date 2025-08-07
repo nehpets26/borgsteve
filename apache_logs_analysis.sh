@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="/home/tmp/apache_logs"
+LOG_FILE="/tmp/borgsteve/apache_logs"
 
 if [[ ! -f "$LOG_FILE" ]]; then
     echo "Error: Log file '$LOG_FILE' not found."
