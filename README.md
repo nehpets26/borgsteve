@@ -25,7 +25,7 @@ git clone https://github.com/datacharmer/test_db.git
 Import the database:
 ```
 cd test_db/
-mysql < test_db/employees.sql
+mysql < employees.sql
 ```
 Test that the database was imported correctly:
 ```
