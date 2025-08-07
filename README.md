@@ -23,9 +23,8 @@ Clone the sample MySQL `employees` database:
 git clone https://github.com/datacharmer/test_db.git
 ```
 Import the database:
-```
-cd test_db/
-mysql < employees.sql
+``` 
+mysql < test_db/employees.sql
 ```
 Test that the database was imported correctly:
 ```
