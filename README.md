@@ -23,7 +23,8 @@ Clone the sample MySQL `employees` database:
 git clone https://github.com/datacharmer/test_db.git
 ```
 Import the database:
-``` 
+```
+cd test_db/
 mysql < test_db/employees.sql
 ```
 Test that the database was imported correctly:
@@ -33,7 +34,8 @@ mysql -t < test_employees_md5.sql
 ## Task 1 – Database Backup Script
 Execute the backup script:
 ```
-./my_sql_backup.sh
+cd /tmp/borgsteve/
+bash my_sql_backup.sh
 ```
 This script will back up the employees database and store the compressed `.gz` file with logs in:
 ```
@@ -47,7 +49,7 @@ curl -o apache_logs "https://raw.githubusercontent.com/elastic/examples/6d86454e
 ```
 Run the log analysis script:
 ```
-./apache_logs_analysis.sh
+bash apache_logs_analysis.sh
 ```
 This script provides in a menu format:
 
