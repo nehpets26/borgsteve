@@ -59,10 +59,13 @@ This script provides in a menu format:
 
 
 
-## Requirements
-MySQL server installed
-gzip for backup compression
+## What Assumptions Were Made
+It was assumed that the MySQL server is already installed and running.
+gzip for backup compression is installed
+Scripts are run in a Linux-like environment
 
-## Notes
+## How I Would Improve It with More Time
 
-Use `chmod +x` to make scripts executable if needed.
+Automate the setup and execution using Ansible to make the solution scalable and repeatable across multiple servers.
+Support automatic email notifications after a successful backup or if a failure occurs.
+Schedule the backup script with `cron` and log rotation.
