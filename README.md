@@ -12,9 +12,9 @@ This project contains two main tasks:
 Create required directories:
 
 ```bash
-mkdir -p /home/steve
+mkdir -p /tmp/steve
 mkdir -p /var/backups/dbbackups/
-cd /home/steve
+cd /tmp/steve
 ```
 ## Download & Import the Sample Database
 Clone the sample MySQL `employees` database:
